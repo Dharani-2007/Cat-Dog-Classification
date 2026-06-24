@@ -79,7 +79,9 @@ StandardScaler is used to normalize image features.
 An SVM classifier with RBF kernel is trained using the processed dataset.
 6. Prediction
 New images are processed and passed to the trained model to predict:
+
 Cat
+
 Dog
 
 Model Performance
@@ -87,60 +89,102 @@ Model Performance
 The trained SVM model achieved:
 
 Accuracy: 65.25%
+
 Training Images: 3200
+
 Testing Images: 800
+
 Confusion Matrix:
+
 [[276 124]
+
  [154 246]]
 
  Project Structure
 
  Cat-Dog-Classification/
+
 │
+
 ├── train.py
+
 ├── predict.py
+
 ├── test_model.py
+
 ├── scaler.pkl
+
 ├── .gitignore
+
 └── README.md
 
 Installation
+
 Install required libraries:
+
 pip install opencv-python numpy scikit-learn
 
 Usage
+
 Train the Model
+
 python train.py
+
 This trains the SVM model and generates:
+
 cat_dog_model.pkl
+
 scaler.pkl
+
 Predict an Image
+
 python predict.py
+
 Sample Output:
+
 Prediction: Cat
+
 or
+
 Prediction: Dog
 
 Sample Results
+
 Dog Image
+
 Input: dog.4002.jpg
+
 Prediction: Dog
+
 Cat Image
+
 Input: cat.4001.jpg
+
 Prediction: Cat
 
 Applications
+
 Animal Image Classification
+
 Wildlife Monitoring
+
 Veterinary Assistance Systems
+
 Smart Surveillance Systems
+
 Educational AI Projects
 
 Future Improvements
+
 Deep Learning using CNN
+
 TensorFlow/Keras Integration
+
 Higher Accuracy Models
+
 Web-based Interface using Streamlit
+
 Multi-Animal Classification
+
 Real-time Webcam Detection
 
