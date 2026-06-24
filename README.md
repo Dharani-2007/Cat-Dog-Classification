@@ -11,34 +11,56 @@ The objective of this project is to develop an automated image classification sy
 Features
 
 Image Classification using Machine Learning
+
 Automatic Cat and Dog Detection
+
 OpenCV-based Image Processing
+
 SVM Classification Model
+
 Image Resizing and Feature Extraction
+
 Real-time Prediction from Input Images
+
 Simple and Easy-to-Use Interface
 
 Dataset
+
 The project uses the Cats and Dogs image dataset.
+
 Dataset Structure:
+
 training_set/
+
 ├── cats/
+
 ├── dogs/
+
 test_set/
+
 ├── cats/
+
 ├── dogs/
+
 Training Images:
+
 Cats: 2000
+
 Dogs: 2000
+
 Total Images:
 4000
 
 Technologies Used
 
 Python 
+
 OpenCV
+
 NumPy
+
 Scikit-Learn
+
 Pickle
 
 Methodology
