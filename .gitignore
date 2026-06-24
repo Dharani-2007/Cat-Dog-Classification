@@ -1,0 +1,4 @@
+training_set/
+test_set/
+__pycache__/
+cat_dog_model.pkl
