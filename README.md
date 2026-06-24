@@ -35,7 +35,7 @@ Total Images:
 
 Technologies Used
 
-Python
+Python 
 OpenCV
 NumPy
 Scikit-Learn
